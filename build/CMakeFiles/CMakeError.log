@@ -1,0 +1,362 @@
+Determining if the function crlibm_init exists in the crlibm failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3601261294/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3601261294.dir/build.make CMakeFiles/cmTryCompileExec3601261294.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3601261294.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crlibm_init -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3601261294.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3601261294
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3601261294.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crlibm_init -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3601261294.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3601261294 -rdynamic -lcrlibm 
+/usr/bin/ld: cannot find -lcrlibm
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3601261294] Error 1
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3601261294/fast] Error 2
+
+
+Determining if the include file crlibm.h exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1380115303/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1380115303.dir/build.make CMakeFiles/cmTryCompileExec1380115303.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1380115303.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1380115303.dir/CheckIncludeFile.c.o   -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: fatal error: crlibm.h: No such file or directory
+ #include <crlibm.h>
+                    ^
+compilation terminated.
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1380115303.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1380115303/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test IS_ASSIMP_PRE_R896 failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec192352852/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec192352852.dir/build.make CMakeFiles/cmTryCompileExec192352852.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec192352852.dir/src.cxx.o
+/usr/bin/c++    -DIS_ASSIMP_PRE_R896 -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec192352852.dir/src.cxx.o -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/src.cxx
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/src.cxx:2:30: fatal error: assimp/Logger.h: No such file or directory
+   #include <assimp/Logger.h> 
+                              ^
+compilation terminated.
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec192352852.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec192352852/fast] Error 2
+
+Source file was:
+ 
+  #include <assimp/Logger.h> 
+  int main() 
+  { 
+      Assimp::Logger::WARN; 
+      return 0; 
+  }
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3916484904/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3916484904.dir/build.make CMakeFiles/cmTryCompileExec3916484904.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3916484904.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3916484904.dir/CheckSymbolExists.cxx.o -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3916484904.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec3916484904/fast] Error 2
+
+File /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec751048034/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec751048034.dir/build.make CMakeFiles/cmTryCompileExec751048034.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec751048034.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec751048034.dir/CheckSymbolExists.cxx.o -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec751048034.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec751048034/fast] Error 2
+
+File /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1191120348/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1191120348.dir/build.make CMakeFiles/cmTryCompileExec1191120348.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1191120348.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1191120348.dir/CheckSymbolExists.cxx.o -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1191120348.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1191120348/fast] Error 2
+
+File /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file ANN/ANN.h exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec943753209/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec943753209.dir/build.make CMakeFiles/cmTryCompileExec943753209.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec943753209.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec943753209.dir/CheckIncludeFile.cxx.o -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:21: fatal error: ANN/ANN.h: No such file or directory
+ #include <ANN/ANN.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec943753209.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec943753209/fast] Error 2
+
+
+Determining if the function asinh exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3190869235/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3190869235.dir/build.make CMakeFiles/cmTryCompileExec3190869235.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3190869235.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=asinh -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3190869235.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘asinh’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3190869235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3190869235.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=asinh -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3190869235.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3190869235 -rdynamic 
+CMakeFiles/cmTryCompileExec3190869235.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0xe): undefined reference to `asinh'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3190869235] Error 1
+make: *** [cmTryCompileExec3190869235/fast] Error 2
+
+
+Determining if the function acosh exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3267595817/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3267595817.dir/build.make CMakeFiles/cmTryCompileExec3267595817.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3267595817.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=acosh -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3267595817.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘acosh’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3267595817
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3267595817.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=acosh -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3267595817.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3267595817 -rdynamic 
+CMakeFiles/cmTryCompileExec3267595817.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0xe): undefined reference to `acosh'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3267595817] Error 1
+make: *** [cmTryCompileExec3267595817/fast] Error 2
+
+
+Determining if the function atanh exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2489225651/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2489225651.dir/build.make CMakeFiles/cmTryCompileExec2489225651.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2489225651.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atanh -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2489225651.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘atanh’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2489225651
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2489225651.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atanh -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2489225651.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2489225651 -rdynamic 
+CMakeFiles/cmTryCompileExec2489225651.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0xe): undefined reference to `atanh'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2489225651] Error 1
+make: *** [cmTryCompileExec2489225651/fast] Error 2
+
+
+Determining if the function exp2 exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3733065279/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3733065279.dir/build.make CMakeFiles/cmTryCompileExec3733065279.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3733065279.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp2 -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3733065279.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exp2’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3733065279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3733065279.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp2 -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3733065279.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3733065279 -rdynamic 
+CMakeFiles/cmTryCompileExec3733065279.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0xe): undefined reference to `exp2'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3733065279] Error 1
+make: *** [cmTryCompileExec3733065279/fast] Error 2
+
+
+Determining if the function log2 exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2171827085/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2171827085.dir/build.make CMakeFiles/cmTryCompileExec2171827085.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2171827085.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log2 -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2171827085.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘log2’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2171827085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2171827085.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log2 -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2171827085.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2171827085 -rdynamic 
+CMakeFiles/cmTryCompileExec2171827085.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0xe): undefined reference to `log2'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2171827085] Error 1
+make: *** [cmTryCompileExec2171827085/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1118677376/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1118677376.dir/build.make CMakeFiles/cmTryCompileExec1118677376.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1118677376.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1118677376.dir/CheckIncludeFile.c.o   -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: fatal error: ffmpeg/avformat.h: No such file or directory
+ #include <ffmpeg/avformat.h>
+                             ^
+compilation terminated.
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1118677376.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1118677376/fast] Error 2
+
+
+Determining if the include file ffmpeg/avcodec.h exists failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1958839505/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1958839505.dir/build.make CMakeFiles/cmTryCompileExec1958839505.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1958839505.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1958839505.dir/CheckIncludeFile.c.o   -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: ffmpeg/avcodec.h: No such file or directory
+ #include <ffmpeg/avcodec.h>
+                            ^
+compilation terminated.
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1958839505.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1958839505/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test NEED_TRIINDEX failed with the following output:
+Change Dir: /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1094185707/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1094185707.dir/build.make CMakeFiles/cmTryCompileExec1094185707.dir/build
+make[1]: Entering directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1094185707.dir/src.cxx.o
+/usr/bin/c++    -DNEED_TRIINDEX  -L/usr/local/lib -O3 -DNDEBUG -I/usr/local/include    -o CMakeFiles/cmTryCompileExec1094185707.dir/src.cxx.o -c /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/src.cxx
+/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/src.cxx:4:17: error: conflicting declaration ‘typedef int dTriIndex’
+     typedef int dTriIndex;
+                 ^
+In file included from /usr/local/include/ode/ode.h:30:0,
+                 from /home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/local/include/ode/common.h:85:17: error: ‘dTriIndex’ has a previous declaration as ‘typedef duint32 dTriIndex’
+ typedef duint32 dTriIndex;
+                 ^
+make[1]: Leaving directory `/home/cescuder/workspace/openrave_cescuder/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1094185707.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1094185707/fast] Error 2
+
+Source file was:
+
+    #include <ode/ode.h>
+
+    typedef int dTriIndex;
+    int main()
+    {
+      return 0;
+    }
